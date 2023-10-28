@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Pixelify+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+}
+
+
+.container{
+    height: 100vh;
+    width: max-content;
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+}
+
+.reset{
+    padding: 20px;
+    font-size: xx-large;
+    color: black;
+    font-family: 'Pixelify Sans', sans-serif;
+    background: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.first p{
+    font-size: x-large;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: white;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:60px ;
+}
+
+.second h1{
+    font-size: 4rem;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    background: white;
+    width: 100vw;
+    height: 20px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: xx-large;
+}
+
+.fourth{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+}
+
+.leftBox input{
+    height: 100px;
+    width: 140px;
+    border: 2px solid white;
+    outline: none;
+    background: white;
+    font-size: 5rem;
+    color: black;
+    font-family: 'Pixelify Sans', sans-serif;
+    text-align: center;
+}
+
+.leftBox .compare{
+    height: 120px;
+    width: 280px;
+    border: 2px solid white;
+    font-size: 4rem;
+    font-family: 'Pixelify Sans', sans-serif;
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+.rightBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    height: 40vh;
+}
+
+.rightBox h4{
+    font-size: 2rem;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: white;
+    background: #000;
+}
+
+.centerBox{
+    font-size: 5rem;
+}
+
+.mainHeading{
+    color: white;
+}
